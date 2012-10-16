@@ -1,0 +1,37 @@
+{
+  "name": "travis-favicon",
+  "title": "TravisFavicon",
+  "description": "Show the last build result as a favicon on your page",
+  "version": "0.1.0",
+  "homepage": "https://github.com/manuelvanrijn/travis-favicon",
+  "author": {
+    "name": "Manuel van Rijn",
+    "email": "manuel@manuelles.nl",
+    "url": "http://manuel.manuelles.nl/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/manuelvanrijn/travis-favicon.git"
+  },
+  "bugs": {
+    "url": "https://github.com/manuelvanrijn/travis-favicon/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/manuelvanrijn/travis-favicon/blob/master/LICENSE-MIT"
+    },
+    {
+      "type": "GPL",
+      "url": "https://github.com/manuelvanrijn/travis-favicon/blob/master/LICENSE-GPL"
+    }
+  ],
+  "main": "dist/travis-favicon",
+  "scripts": {
+    "test": "grunt lint --verbose"
+  },
+  "devDependencies": {
+    "grunt": "~0.3.14"
+  },
+  "keywords": []
+}
